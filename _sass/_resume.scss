@@ -1,9 +1,16 @@
 .resume-wrap {
   display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 28px;
-  align-items: start;
-  margin-top: 1.5rem;
+  grid-template-columns: 1fr 300px; /* slimmer sidebar */
+  gap: 32px;
+
+  max-width: 1050px;   /* prevent super-wide */
+  margin: 2.5rem auto; /* center the whole layout */
+  padding: 0 1.25rem;  /* breathing room on edges */
+}
+
+/* Minimal Mistakes container override for this page */
+.page__inner-wrap {
+  max-width: none;
 }
 
 .resume-main {
@@ -16,12 +23,28 @@
 }
 
 .resume-card {
-  border-radius: 18px;
+  border-radius: 14px;           /* or 0px if you want sharp */
   overflow: hidden;
-  background: #6d3b4b; /* sidebar color */
+  background: #3b82f6;           /* sky blue */
   color: #fff;
-  padding: 28px 22px;
+  padding: 22px 18px;
 }
+
+.resume-name {
+  text-align: center;
+  font-size: 1.6rem;   /* smaller */
+  margin: 0;
+  font-weight: 800;
+}
+
+.resume-subtitle {
+  text-align: center;
+  margin-top: 8px;
+  opacity: 0.9;
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
 
 .resume-avatar {
   width: 108px;
@@ -33,25 +56,17 @@
   border: 3px solid rgba(255,255,255,0.35);
 }
 
-.resume-name {
-  text-align: center;
-  font-size: 2.1rem;
-  line-height: 1.05;
-  margin: 0;
-  font-weight: 800;
-}
-
-.resume-subtitle {
-  text-align: center;
-  margin-top: 10px;
-  opacity: 0.9;
-  font-size: 1.05rem;
-}
 
 .resume-links {
   margin-top: 22px;
   padding-top: 18px;
   border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.resume-links {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.22);
 }
 
 .resume-link {
@@ -60,17 +75,16 @@
   align-items: center;
   color: #fff !important;
   text-decoration: none !important;
-  padding: 8px 2px;
+  padding: 7px 2px;
   opacity: 0.95;
 }
 
-.resume-link:hover { opacity: 1; }
-
 .resume-ico {
-  width: 20px;
+  width: 18px;
   text-align: center;
   opacity: 0.95;
 }
+
 
 .resume-block {
   margin-top: 22px;
