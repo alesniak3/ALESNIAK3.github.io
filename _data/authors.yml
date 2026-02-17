@@ -1,5 +1,6 @@
 default:
   name: "Angelina Lesniak"
+  avatar: "headshot.jpg"
   bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
   email: "alesniak2@wisc.edu"
   links:
