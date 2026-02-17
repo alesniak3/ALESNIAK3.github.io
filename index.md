@@ -27,12 +27,13 @@ I am a first-year PhD student in the Department of Electrical and Computer Engin
 - Demonstrated that basis-only analytical validity can be overly conservative, and that LMCE-invariant ranges are substantially larger and more practical.  
 - Extended validity analysis to simultaneous multi-bus load shifting, revealing direction-dependence and distinct limiting mechanisms (congestion vs generator capacity).  
 
-**Electrical Engineering Intern — AHEAD Engineered Solutions** (Dec 2022–Aug 2023)  
-- Worked on integrated hardware + software solutions alongside mechanical and electrical engineers.  
-- Designed and conducted prototype tests to improve system functionality and reliability.  
-- Prepared technical reports and supported product lifecycle documentation.  
-
 **Electrical Engineering Intern — KW Mission Critical Engineering** (Feb 2022–May 2025)  
 - Designed electrical systems for large-scale data centers with multidisciplinary engineering teams.  
 - Performed calculations and computer modeling to produce detailed engineering plans.  
-- Visited construction sites to troubleshoot and resolve complex issues in real time.  
+- Visited construction sites to troubleshoot and resolve complex issues in real time.
+- 
+**Electrical Engineering Intern — AHEAD Engineered Solutions** (Dec 2022–Aug 2023)  
+- Worked on integrated hardware + software solutions alongside mechanical and electrical engineers.
+- Collaborated on the development of the Kori cart, an industry-first modular mobile medical cart designed to improve patient care in hospitals.
+- Designed and conducted prototype tests to improve system functionality and reliability.  
+
