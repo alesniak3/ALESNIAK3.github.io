@@ -123,6 +123,12 @@
     grid-template-columns: 1fr;
     margin: 1.5rem auto;
   }
-  .resume-side { position: static; }
+
+  /* put sidebar first */
+  .resume-side {
+    position: static;
+    order: -1;
+  }
 }
+
 
