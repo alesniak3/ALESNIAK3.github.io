@@ -82,4 +82,20 @@
   font-weight: 800;
   letter-spacing: 0.06em;
   font-size: 0.95rem;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+}
+
+.resume-block-body {
+  opacity: 0.95;
+  line-height: 1.5;
+}
+
+/* Make it mobile-friendly: sidebar stacks on top */
+@media (max-width: 900px) {
+  .resume-wrap {
+    grid-template-columns: 1fr;
+  }
+  .resume-side {
+    position: static;
+  }
+}
