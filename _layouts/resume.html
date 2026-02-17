@@ -60,17 +60,33 @@ layout: default
 
       </div>
 
-      {% if page.education %}
-        <div class="resume-block">
-          <div class="resume-block-title">EDUCATION</div>
-          <div class="resume-block-body">{{ page.education }}</div>
-        </div>
-      {% endif %}
+    {% if page.education %}
+      <div class="resume-block">
+        <div class="resume-block-title">EDUCATION</div>
+    
+        {% for e in page.education %}
+          <div class="resume-block-body" style="margin-bottom: 10px;">
+            <div><strong>{{ e.degree }}</strong></div>
+            <div>{{ e.school }}</div>
+            {% if e.years %}
+              <div style="opacity: 0.85; font-size: 0.9em;">{{ e.years }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
 
-      {% if page.quickfacts %}
-        <div class="resume-block">
-          <div class="resume-block-title">QUICK FACTS</div>
-          <div class="resume-block-body">{{ page.quickfacts }}</div>
-        </div>
-      {% endif %}
+
+    {% if page.quickfacts %}
+      <div class="resume-block">
+        <div class="resume-block-title">QUICK FACTS</div>
+    
+        {% for q in page.quickfacts %}
+          <div class="resume-block-body" style="margin-bottom: 8px;">
+            <strong>{{ q.label }}:</strong> {{ q.value }}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     </div>
