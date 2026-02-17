@@ -1,0 +1,14 @@
+default:
+  name: "Angelina Lesniak"
+  bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
+  email: "alesniak2@wisc.edu"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/..."
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ALESNIAK3"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/..."
