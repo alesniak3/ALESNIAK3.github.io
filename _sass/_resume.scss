@@ -1,27 +1,14 @@
-// .resume-wrap {
-//   display: grid;
-//   grid-template-columns: 1fr 300px; /* slimmer sidebar */
-//   gap: 32px;
-
-//   max-width: 1050px;   /* prevent super-wide */
-//   margin: 2.5rem auto; /* center the whole layout */
-//   padding: 0 1.25rem;  /* breathing room on edges */
-// }
-
-// /* Minimal Mistakes container override for this page */
-// .page__inner-wrap {
-//   max-width: none;
-// }
-
+/* Layout */
 .resume-wrap {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: minmax(0, 1fr) 300px;
   grid-template-areas: "main side";
   gap: 32px;
 
   max-width: 1050px;
   margin: 2.5rem auto;
   padding: 0 1.25rem;
+  align-items: start;
 }
 
 .resume-main {
@@ -35,30 +22,22 @@
   top: 1.25rem;
 }
 
-// .resume-card {
-//   border-radius: 14px;           /* or 0px if you want sharp */
-//   overflow: hidden;
-//   background: #6cb6e8;           /* sky blue */
-//   color: #fff;
-//   padding: 22px 18px;
-// }
+/* Sidebar card (soft, academic) */
 .resume-wrap .resume-side .resume-card {
   border-radius: 14px;
   overflow: hidden;
 
-  background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 100%) !important;
+  background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 100%);
   color: #0f172a;
 
   padding: 22px 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.10);
 }
 
-
-
-
+/* Typography */
 .resume-name {
   text-align: center;
-  font-size: 1.6rem;   /* smaller */
+  font-size: 1.6rem;
   margin: 0;
   font-weight: 800;
 }
@@ -66,12 +45,12 @@
 .resume-subtitle {
   text-align: center;
   margin-top: 8px;
-  opacity: 0.9;
+  opacity: 0.85;
   font-size: 0.98rem;
   line-height: 1.4;
 }
 
-
+/* Avatar */
 .resume-avatar {
   width: 108px;
   height: 108px;
@@ -79,43 +58,39 @@
   object-fit: cover;
   display: block;
   margin: 0 auto 16px auto;
-  border: 3px solid rgba(255,255,255,0.35);
+  border: 3px solid rgba(255, 255, 255, 0.55);
 }
 
-
-.resume-links {
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(255,255,255,0.18);
-}
-
+/* Links + blocks */
 .resume-links {
   margin-top: 18px;
   padding-top: 14px;
-  border-top: 1px solid rgba(255,255,255,0.22);
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
 }
 
 .resume-link {
   display: flex;
   gap: 10px;
   align-items: center;
-  color: #fff !important;
-  text-decoration: none !important;
+
+  color: #0f172a;
+  text-decoration: none;
   padding: 7px 2px;
-  opacity: 0.95;
+  opacity: 0.9;
 }
+
+.resume-link:hover { opacity: 1; text-decoration: underline; }
 
 .resume-ico {
   width: 18px;
   text-align: center;
-  opacity: 0.95;
+  opacity: 0.8;
 }
 
-
 .resume-block {
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(255,255,255,0.18);
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
 }
 
 .resume-block-title {
@@ -130,48 +105,27 @@
   line-height: 1.5;
 }
 
-// .resume-wrap {
-//   display: grid;
-//   grid-template-columns: 1fr 300px;
-//   grid-template-areas: "main side";
-//   gap: 32px;
-//   max-width: 1050px;
-//   margin: 2.5rem auto;
-//   padding: 0 1.25rem;
-// }
-/* FORCE the 2-column layout on desktop */
-.resume-wrap {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1fr) 300px !important;
-  grid-template-areas: "main side" !important;
-  gap: 32px !important;
-  align-items: start !important;
-}
-
-.resume-main { grid-area: main !important; }
-.resume-side { grid-area: side !important; }
-
-
+/* Mobile */
 @media (max-width: 900px) {
   .resume-wrap {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "side"
-      "main" !important;
+      "main";
+    gap: 18px;
 
     margin: 1.25rem auto;
     padding: 0 1rem;
   }
 
   .resume-side {
-    position: static !important;
+    position: static;
     width: 100%;
   }
 
   .resume-wrap .resume-side .resume-card {
     width: 100%;
-    padding: 16px 14px;     /* less squished */
-    border-radius: 14px;
+    padding: 16px 14px;
   }
 
   .resume-avatar {
@@ -183,16 +137,5 @@
   .resume-name { font-size: 1.35rem; }
   .resume-subtitle { font-size: 0.95rem; }
 
-  /* prevent long links from breaking layout */
-  .resume-link span {
-    overflow-wrap: anywhere;
-  }
+  .resume-link span { overflow-wrap: anywhere; }
 }
-
-
-
-
-
-
-
-
