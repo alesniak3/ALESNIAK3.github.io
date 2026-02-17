@@ -29,9 +29,15 @@
 //   color: #fff;
 //   padding: 22px 18px;
 // }
-/* FINAL OVERRIDE — ensures sidebar color is correct */
-.resume-card {
+.resume-wrap .resume-side .resume-card {
+  border-radius: 14px;
+  overflow: hidden;
+
   background: linear-gradient(180deg, #5bbcf0 0%, #3a8fd8 100%) !important;
+  color: #fff;
+
+  padding: 22px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 
