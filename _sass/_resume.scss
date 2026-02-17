@@ -139,18 +139,30 @@
 //   margin: 2.5rem auto;
 //   padding: 0 1.25rem;
 // }
+/* FORCE the 2-column layout on desktop */
+.resume-wrap {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 300px !important;
+  grid-template-areas: "main side" !important;
+  gap: 32px !important;
+  align-items: start !important;
+}
+
+.resume-main { grid-area: main !important; }
+.resume-side { grid-area: side !important; }
 
 
 @media (max-width: 900px) {
   .resume-wrap {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     grid-template-areas:
       "side"
-      "main";
+      "main" !important;
   }
 
-  .resume-side { position: static; }
+  .resume-side { position: static !important; }
 }
+
 
 
 
