@@ -18,9 +18,9 @@ I am a first-year PhD student in the Department of Electrical and Computer Engin
 ## Experience
 
 **Research Assistant — University of Wisconsin–Madison (WISPO Lab)** (May 2024–present)  
-- Conduct research on carbon signals (LMCEs) and grid-aware modeling of flexible resources.  
-- Develop optimization models for modular hydrogen electrolyzer scheduling and interactions with the electric grid using day-ahead market data.  
-- Communicate results through posters and academic writing.  
+- Conducted research on carbon signals (LMCEs) and grid-aware modeling of flexible resources.  
+- Developed optimization models for modular hydrogen electrolyzer scheduling and interactions with the electric grid using day-ahead market data.  
+- Communicated results through posters and academic writing.  
 
 **Summer Student — Center for Nonlinear Studies (CNLS), Los Alamos National Laboratory** (May 2025–Aug 2025)  
 - Developed a hybrid analytical + numerical method to compute validity ranges of Locational Marginal Carbon Emissions (LMCEs) under DC optimal power flow.  
