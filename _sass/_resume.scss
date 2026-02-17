@@ -29,19 +29,12 @@
 //   color: #fff;
 //   padding: 22px 18px;
 // }
-.resume-card {
-  border-radius: 14px;
-  overflow: hidden;
-
-  /* pretty sky-blue gradient */
-  background: linear-gradient(180deg, #5bbcf0 0%, #3a8fd8 100%);
-
-  color: #fff;
-  padding: 22px 18px;
-
-  /* subtle depth */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+/* FINAL OVERRIDE — ensures sidebar color is correct */
+.resume-wrap .resume-side .resume-card {
+  background: linear-gradient(180deg, #5bbcf0 0%, #3a8fd8 100%) !important;
+  border: none !important;
 }
+
 
 
 
