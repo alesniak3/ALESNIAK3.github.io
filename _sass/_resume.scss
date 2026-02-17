@@ -22,13 +22,18 @@
   top: 1.25rem;
 }
 
+// .resume-card {
+//   border-radius: 14px;           /* or 0px if you want sharp */
+//   overflow: hidden;
+//   background: #6cb6e8;           /* sky blue */
+//   color: #fff;
+//   padding: 22px 18px;
+// }
 .resume-card {
-  border-radius: 14px;           /* or 0px if you want sharp */
-  overflow: hidden;
-  background: #6cb6e8;           /* sky blue */
-  color: #fff;
-  padding: 22px 18px;
+  background: lime !important;
+  border: 8px solid red !important;
 }
+
 
 .resume-name {
   text-align: center;
