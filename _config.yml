@@ -13,6 +13,16 @@ author_profile: true
 
 # Turn off follow button + follower counts in the sidebar
 show_follow: false
+minimal_mistakes_skin: "default"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      show_author_profile: true
+      show_follow: false
 
 author:
   name: "Angelina Lesniak"
