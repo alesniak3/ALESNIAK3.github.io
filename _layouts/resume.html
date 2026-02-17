@@ -28,12 +28,13 @@ layout: default
       {% endif %}
 
       <div class="resume-links">
-        {% if a.email %}
-          <a class="resume-link" href="mailto:{{ a.email }}">
-            <span class="resume-ico">✉</span>
-            <span>{{ a.email }}</span>
-          </a>
-        {% endif %}
+      {% if a.email %}
+        <a class="resume-link" href="mailto:{{ a.email }}">
+          <span class="resume-ico"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+          <span>{{ a.email }}</span>
+        </a>
+      {% endif %}
+
 
         {% if a.location %}
           <div class="resume-link">
@@ -45,11 +46,18 @@ layout: default
         {% if a.links %}
           {% for l in a.links %}
             <a class="resume-link" href="{{ l.url }}" target="_blank" rel="noopener">
-              <span class="resume-ico">•</span>
+              <span class="resume-ico">
+                {% if l.icon %}
+                  <i class="{{ l.icon }}" aria-hidden="true"></i>
+                {% else %}
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                {% endif %}
+              </span>
               <span>{{ l.label }}</span>
             </a>
           {% endfor %}
         {% endif %}
+
       </div>
 
       {% if page.education %}
