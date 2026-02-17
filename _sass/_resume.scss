@@ -154,14 +154,41 @@
 
 @media (max-width: 900px) {
   .resume-wrap {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     grid-template-areas:
       "side"
-      "main";
+      "main" !important;
+
+    margin: 1.25rem auto;
+    padding: 0 1rem;
   }
 
-  .resume-side { position: static; }
+  .resume-side {
+    position: static !important;
+    width: 100%;
+  }
+
+  .resume-wrap .resume-side .resume-card {
+    width: 100%;
+    padding: 16px 14px;     /* less squished */
+    border-radius: 14px;
+  }
+
+  .resume-avatar {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 10px auto;
+  }
+
+  .resume-name { font-size: 1.35rem; }
+  .resume-subtitle { font-size: 0.95rem; }
+
+  /* prevent long links from breaking layout */
+  .resume-link span {
+    overflow-wrap: anywhere;
+  }
 }
+
 
 
 
