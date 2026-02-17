@@ -1,9 +1,11 @@
 ---
-
-layout: home
+layout: single
 author_profile: true
-show_follow: false
+classes: wide
+title: ""
+permalink: /
 ---
+
 
 ---
 
