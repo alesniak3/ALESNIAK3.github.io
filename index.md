@@ -1,25 +1,22 @@
 ---
-layout: single
-author_profile: true
-classes: wide
-title: ""
+layout: resume
 permalink: /
+education: |
+  **PhD**, Electrical & Computer Engineering (Power & Energy)  
+  University of Wisconsin–Madison
+
+quickfacts: |
+  **Research:** LMCEs, OPF sensitivity, carbon signals  
+  **Methods:** optimization, DC-OPF, JuMP/Julia  
 ---
 
+## Career Profile
+I am a PhD student at the University of Wisconsin–Madison working on locational marginal carbon emissions (LMCEs), validity ranges, and carbon-aware load shifting.
 
----
+## Experience
+**Research Assistant — UW–Madison** (2025–present)  
+- Your bullets…
 
-Hi! I’m **Angelina Lesniak**, a first-year PhD student in Power & Energy Systems at the University of Wisconsin–Madison.
-
-My research focuses on **carbon-aware grid optimization**, including **locational marginal carbon emissions (LMCEs)**, **validity ranges**, and applications to flexible industrial loads such as electrolyzers.
-
-### Research interests
-- Locational marginal carbon emissions (LMCEs)
-- Power system optimization and OPF sensitivity
-- Load shifting and demand flexibility
-- Energy storage and hydrogen systems
-
-### Selected work
-- *Paper title here* — Conference/Journal, Year. [[PDF]]() [[Code]]()
-- *Paper title here* — Conference/Journal, Year. [[PDF]]() [[Code]]()
-
+## Selected Publications
+- Paper 1 (link)
+- Paper 2 (link)
