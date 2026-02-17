@@ -2,8 +2,8 @@
 layout: resume
 permalink: /
 education: |
-  **PhD**, Electrical & Computer Engineering (Power & Energy)  
-  University of Wisconsin–Madison
+  - PhD, Electrical & Computer Engineering (Power & Energy), University of Wisconsin–Madison
+  - BS, Electrical Engineering, Milwaukee School of Engineering
 
 quickfacts: |
   **Research:** LMCEs, OPF sensitivity, carbon signals  
