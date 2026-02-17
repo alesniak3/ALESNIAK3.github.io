@@ -117,18 +117,12 @@
   line-height: 1.5;
 }
 
-/* --- MOBILE: put sidebar card on top --- */
-@media (max-width: 900px) {
-  .resume-wrap {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "side"
-      "main";
-  }
-
+@media (max-width: 5000px) { /* TEMP TEST */
+  .resume-wrap { grid-template-areas: "side" "main"; grid-template-columns: 1fr; }
   .resume-side { grid-area: side; position: static; }
   .resume-main { grid-area: main; }
 }
+
 
 .resume-side { grid-area: side; }
 .resume-main { grid-area: main; }
