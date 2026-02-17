@@ -17,7 +17,7 @@
 
 default:
   name: "Angelina Lesniak"
-  bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
+  bio: "PhD ECE @ UW–Madison"
   avatar: "headshot.jpg"
   links:
     - label: "Google Scholar"
