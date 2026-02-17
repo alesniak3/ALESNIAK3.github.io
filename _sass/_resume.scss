@@ -154,14 +154,15 @@
 
 @media (max-width: 900px) {
   .resume-wrap {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "side"
-      "main" !important;
+      "main";
   }
 
-  .resume-side { position: static !important; }
+  .resume-side { position: static; }
 }
+
 
 
 
