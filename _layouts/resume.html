@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="resume-wrap">
+  <!-- LEFT CONTENT -->
+  <main class="resume-main">
+    {{ content }}
+  </main>
+
+  <!-- RIGHT SIDEBAR -->
+  <aside class="resume-side">
+    <div class="resume-card">
+      {% if site.data.authors and site.author %}
+        {% assign a = site.data.authors[site.author] %}
+      {% else %}
+        {% assign a = site.author %}
+      {% endif %}
+
+      {% if a.avatar %}
+        <img class="resume-avatar" src="{{ a.avatar | relative_url }}" alt="{{ a.name | escape }}">
+      {% endif %}
+
+      <h1 class="resume-name">{{ a.name }}</h1>
+
+      {% if a.bio %}
+        <div class="resume-subtitle">{{ a.bio }}</div>
+      {% endif %}
+
+      <div class="resume-links">
+        {% if a.email %}
+          <a class="resume-link" href="mailto:{{ a.email }}">
+            <span class="resume-ico">✉</span>
+            <span>{{ a.email }}</span>
+          </a>
+        {% endif %}
+
+        {% if a.location %}
+          <div class="resume-link">
+            <span class="resume-ico">📍</span>
+            <span>{{ a.location }}</span>
+          </div>
+        {% endif %}
+
+        {% if a.links %}
+          {% for l in a.links %}
+            <a class="resume-link" href="{{ l.url }}" target="_blank" rel="noopener">
+              <span class="resume-ico">•</span>
+              <span>{{ l.label }}</span>
+            </a>
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      {% if page.education %}
+        <div class="resume-block">
+          <div class="resume-block-title">EDUCATION</div>
+          <div class="resume-block-body">{{ page.education }}</div>
+        </div>
+      {% endif %}
+
+      {% if page.quickfacts %}
+        <div class="resume-block">
+          <div class="resume-block-title">QUICK FACTS</div>
+          <div class="resume-block-body">{{ page.quickfacts }}</div>
+        </div>
+      {% endif %}
+    </div>
