@@ -1,0 +1,85 @@
+.resume-wrap {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 28px;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.resume-main {
+  min-width: 0;
+}
+
+.resume-side {
+  position: sticky;
+  top: 1.25rem;
+}
+
+.resume-card {
+  border-radius: 18px;
+  overflow: hidden;
+  background: #6d3b4b; /* sidebar color */
+  color: #fff;
+  padding: 28px 22px;
+}
+
+.resume-avatar {
+  width: 108px;
+  height: 108px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px auto;
+  border: 3px solid rgba(255,255,255,0.35);
+}
+
+.resume-name {
+  text-align: center;
+  font-size: 2.1rem;
+  line-height: 1.05;
+  margin: 0;
+  font-weight: 800;
+}
+
+.resume-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.9;
+  font-size: 1.05rem;
+}
+
+.resume-links {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.resume-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 8px 2px;
+  opacity: 0.95;
+}
+
+.resume-link:hover { opacity: 1; }
+
+.resume-ico {
+  width: 20px;
+  text-align: center;
+  opacity: 0.95;
+}
+
+.resume-block {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.resume-block-title {
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-size: 0.95rem;
+  margin-bottom: 10px
