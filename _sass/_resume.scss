@@ -117,18 +117,29 @@
   line-height: 1.5;
 }
 
-/* Make it mobile-friendly: sidebar stacks on top */
 @media (max-width: 900px) {
   .resume-wrap {
     grid-template-columns: 1fr;
-    margin: 1.5rem auto;
   }
 
-  /* put sidebar first */
   .resume-side {
-    position: static;
-    order: -1;
+    position: sticky;
+    top: 0.5rem;
+    z-index: 50;
   }
+
+  .resume-wrap .resume-side .resume-card {
+    border-radius: 14px;
+    padding: 14px 14px;
+  }
+
+  /* make avatar + name smaller so it fits */
+  .resume-avatar { width: 72px; height: 72px; margin-bottom: 10px; }
+  .resume-name { font-size: 1.35rem; }
+  .resume-subtitle { font-size: 0.95rem; }
+
+  /* optionally hide the long sections (education, etc.) on mobile */
+  .resume-block { display: none; }
 }
 
 
