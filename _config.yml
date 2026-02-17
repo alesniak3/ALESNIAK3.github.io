@@ -24,16 +24,18 @@ defaults:
       show_author_profile: true
       show_follow: false
 
-author:
-  name: "Angelina Lesniak"
-  email: "alesniak2@wisc.edu"
-  links:
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=NYCFfKQAAAAJ&hl=en&oi=ao"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/YOURUSERNAME"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/angelina-l-315033282"
+author: "default"
+
+# author:
+#   name: "Angelina Lesniak"
+#   email: "alesniak2@wisc.edu"
+#   links:
+#     - label: "Google Scholar"
+#       icon: "fas fa-graduation-cap"
+#       url: "https://scholar.google.com/citations?user=NYCFfKQAAAAJ&hl=en&oi=ao"
+#     - label: "GitHub"
+#       icon: "fab fa-github"
+#       url: "https://github.com/YOURUSERNAME"
+#     - label: "LinkedIn"
+#       icon: "fab fa-linkedin"
+#       url: "www.linkedin.com/in/angelina-l-315033282"
