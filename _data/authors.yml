@@ -16,10 +16,11 @@
 
 
 default:
-  name: "TEST NAME SHOULD SHOW"
-  bio: "IF YOU SEE THIS, AUTHORS.YML IS WORKING ✅"
+  name: "Angelina Lesniak"
+  bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
   avatar: "/assets/images/avatar.jpg"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:alesniak2@wisc.edu"
+
