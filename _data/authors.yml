@@ -1,15 +1,25 @@
+# default:
+#   name: "Angelina Lesniak"
+#   avatar: "headshot.jpg"
+#   bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
+#   email: "alesniak2@wisc.edu"
+#   links:
+#     - label: "Google Scholar"
+#       icon: "fas fa-graduation-cap"
+#       url: "https://scholar.google.com/..."
+#     - label: "GitHub"
+#       icon: "fab fa-github"
+#       url: "https://github.com/ALESNIAK3"
+#     - label: "LinkedIn"
+#       icon: "fab fa-linkedin"
+#       url: "https://www.linkedin.com/in/..."
+
+
 default:
-  name: "Angelina Lesniak"
-  avatar: "headshot.jpg"
-  bio: "PhD student in Power Systems at UW–Madison. Carbon signals, optimization, energy storage."
-  email: "alesniak2@wisc.edu"
+  name: "TEST NAME SHOULD SHOW"
+  bio: "IF YOU SEE THIS, AUTHORS.YML IS WORKING ✅"
+  avatar: "/assets/images/avatar.jpg"
   links:
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/..."
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/ALESNIAK3"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/..."
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:alesniak2@wisc.edu"
