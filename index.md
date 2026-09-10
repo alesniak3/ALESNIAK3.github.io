@@ -18,7 +18,7 @@ education:
 **Carbon-Aware Load Shifting Across Multiple Buses: Increasing Accuracy and Impact through Validity-Constrained Shifting**  
 A. Lesniak, N. Rhodes, L. Roald  
 *Hawaii International Conference on System Sciences (HICSS), 2027 — accepted*  
-[View manuscript (PDF)](/assets/ccs/Validity_Ranges_HICSS_2026 (62).pdf)
+[View manuscript (PDF)](/assets/css/Validity_Ranges_HICSS_2026 (62).pdf)
 
 **Advanced scheduling of electrolyzer modules for grid flexibility**  
 A. Lesniak, A.G. Johnsen, N. Rhodes, L. Roald  
