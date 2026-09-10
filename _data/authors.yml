@@ -6,13 +6,13 @@
 #   links:
 #     - label: "Google Scholar"
 #       icon: "fas fa-graduation-cap"
-#       url: "https://scholar.google.com/..."
+#       url: "https://scholar.google.com/citations?user=NYCFfKQAAAAJ&hl=en"
 #     - label: "GitHub"
 #       icon: "fab fa-github"
-#       url: "https://github.com/ALESNIAK3"
+#       url: "https://github.com/lanl-ansi/EmissionsFlexibility"
 #     - label: "LinkedIn"
 #       icon: "fab fa-linkedin"
-#       url: "https://www.linkedin.com/in/..."
+#       url: "https://www.linkedin.com/in/angelina-l-315033282/"
 
 
 default:
@@ -25,7 +25,7 @@ default:
       url: "https://scholar.google.com/citations?user=NYCFfKQAAAAJ&hl=en&oi=ao"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/YOURUSERNAME"
+      url: "https://github.com/lanl-ansi/EmissionsFlexibility"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "www.linkedin.com/in/angelina-l-315033282"
