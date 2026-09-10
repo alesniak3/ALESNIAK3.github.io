@@ -12,6 +12,20 @@ education:
 ---
 
 
+## Publications
+<a id="publications"></a>
+
+**Carbon-Aware Load Shifting Across Multiple Buses: Increasing Accuracy and Impact through Validity-Constrained Shifting**  
+A. Lesniak, N. Rhodes, L. Roald  
+*Hawaii International Conference on System Sciences (HICSS), 2027 — accepted*  
+[View manuscript (PDF)](/assets/ccs/Validity_Ranges_HICSS_2026 (62).pdf)
+
+**Advanced scheduling of electrolyzer modules for grid flexibility**  
+A. Lesniak, A.G. Johnsen, N. Rhodes, L. Roald  
+*2025 IEEE Power & Energy Society General Meeting (PESGM)*, 1–5  
+[View on IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11225446)
+
+
 ## Career Profile
 I am a first-year PhD student in the Department of Electrical and Computer Engineering at the University of Wisconsin-Madison, advised by Prof. Line Roald. My research focuses on carbon signals and grid-aware modeling of flexible energy resources, especially energy storage and industrial loads. 
 
